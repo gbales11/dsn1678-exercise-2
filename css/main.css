@@ -126,13 +126,20 @@ body {
   position: absolute;
   top: -2em;
   width: 4.6em;
-  z-index: 1;
+  z-index: 1; 
+  width: 100%;
+  transition: all 250ms linear;
+  opacity: 0;
 
   background-color: #000;
   border-radius: 6px;
-  opacity: 0;
 
   text-align: center;
+}
+
+.chart__item:hover .chart__count {
+	top: -4em;
+	opacity: 1;
 }
 
 .chart__count::after {
