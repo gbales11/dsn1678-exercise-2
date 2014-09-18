@@ -59,7 +59,15 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+} 
+
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active {
+	background-color: rgba(255,255,255,0.5)
+
 }
+	
 
 .chart__link,
 .chart__link:link,
@@ -99,7 +107,7 @@ body {
 .chart__bar:hover,
 .chart__bar:focus,
 .chart__bar:active {
-	background-color: #fff;
+	background-color: #AFEDFF;
 
 }
 
